@@ -66,7 +66,7 @@
 						container: "game_frame",
 						assetsURI: epk,
 						worldsDB: "worlds",
-						...(await (await fetch("https://neospherelabs.github.io/xenonspeteagler/list.json")).json())
+						...(await (await fetch("https://neospherelabs.github.io/xenonspet/eagler/list.json")).json())
 					};
 					parseParams(params);
 					params.relays[Math.round(Math.random() * (params.relays.length - 1))].primary = true;
